@@ -11,8 +11,7 @@ console.log("Running index.js");
 //userName variable
 let userName;
 //userSeats variable
-let userNoSeats;
-let
+let userSeats;
 /***********************************************************************
  Main code
 ***********************************************************************/
@@ -30,7 +29,7 @@ function start() {
     userName = prompt("Hello my name is Rob.\nWhats yours?");
     alert("Nice to meet you " + userName + " and welcome to Rob's car rentals");
     //Asking the user how many seats they want in their car
-    userNoSeats = prompt("So " + userName + "...\nHow many seats would you like inside your car?");
+    userSeats = prompt("So " + userName + "...\nHow many seats would you like inside your car?");
     while (userSeats < 1 || userSeats > 7) {
         prompt("Sorry " + userName + " we don't have any cars in stock with " + userSeats + " seats.\nPlease pick a new number of seats.");
     }
