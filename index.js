@@ -12,6 +12,7 @@ console.log("Running index.js");
 let userName;
 //userSeats variable
 let userNoSeats;
+let
 /***********************************************************************
  Main code
 ***********************************************************************/
