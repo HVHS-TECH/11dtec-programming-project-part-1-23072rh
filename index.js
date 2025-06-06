@@ -35,7 +35,9 @@ function start() {
     }
     alert(userSeats + " seats is a good choice " + userName + "!");
     //If the user would like one seat in their car
-
+if (userSeats == 1) {
+    
+}
     //If the user would like two seats in their car
 
     //If the user would like three seats in their car
@@ -44,8 +46,8 @@ function start() {
 
     //If the user would like five seats in their car
 
-    //If the user would like on seat in their car
+    //If the user would like six seats in their car
 
-    //If the user would like on seat in their car
+    //If the user would like seven seats in their car
 
 }
