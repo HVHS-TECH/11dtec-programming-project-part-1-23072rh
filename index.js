@@ -34,4 +34,18 @@ function start() {
         userSeats = prompt("Sorry " + userName + " we don't have any cars in stock with " + userSeats + " seats.\nPlease pick a new number of seats.");
     }
     alert(userSeats + " seats is a good choice " + userName + "!");
+    //If the user would like one seat in their car
+
+    //If the user would like two seats in their car
+
+    //If the user would like three seats in their car
+
+    //If the user would like four seats in their car
+
+    //If the user would like five seats in their car
+
+    //If the user would like on seat in their car
+
+    //If the user would like on seat in their car
+
 }
