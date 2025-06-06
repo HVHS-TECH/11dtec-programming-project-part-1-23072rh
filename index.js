@@ -62,4 +62,8 @@ function start() {
     if (userSeats == 7) {
         prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
+    //If the user would like eight seats in their car
+    if (userSeats == 8) {
+        prompt("You want one seat in your car, we have a KIA Carnival in stock just for you.");
+    }
 }
