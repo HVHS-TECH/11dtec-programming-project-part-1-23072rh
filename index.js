@@ -12,7 +12,7 @@ console.log("Running index.js");
 let userName;
 //userSeats variable
 let userSeats;
-let user
+let userAnswer;
 /***********************************************************************
  Main code
 ***********************************************************************/
@@ -37,7 +37,7 @@ function start() {
     alert(userSeats + " seats is a good choice " + userName + "!");
     //If the user would like one seat in their car
 if (userSeats == 1) {
-    prompt("You want one seat in your car, you might be intristed in the BAC mono.\nDo you like the sound of that?");
+    userAnswer = prompt("You want one seat in your car, you might be intristed in the BAC mono.\nDo you like the sound of that?");
 }
     //If the user would like two seats in their car
 
