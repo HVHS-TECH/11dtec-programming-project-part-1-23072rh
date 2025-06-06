@@ -40,26 +40,26 @@ function start() {
     }
     //If the user would like two seats in their car
     if (userSeats == 2) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
     //If the user would like three seats in their car
     if (userSeats == 3) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
     //If the user would like four seats in their car
     if (userSeats == 4) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
     //If the user would like five seats in their car
     if (userSeats == 5) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
     //If the user would like six seats in their car
     if (userSeats == 6) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
     //If the user would like seven seats in their car
     if (userSeats == 7) {
-        prompt("You want one seat in your car, we have a BAC mono in stock just for you.");
+        prompt("You want one seat in your car, we have a ____ in stock just for you.");
     }
 }
