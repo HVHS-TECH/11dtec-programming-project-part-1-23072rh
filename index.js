@@ -31,7 +31,7 @@ function start() {
     //Asking the user how many seats they want in their car
     userSeats = prompt("So " + userName + "...\nHow many seats would you like inside your car?");
     while (userSeats < 1 || userSeats > 7) {
-        userSeats = prompt("Sorry " + userName + " we don't have any cars in stock with " + userSeats + " seats.\nPlease pick a number of seats between 1 - 7.");
+        userSeats = prompt("Sorry " + userName + " we don't have any cars in stock with " + userSeats + " seats.\nPlease pick a number of seats between...\n 1 - 7");
     }
     alert(userSeats + " seats is a good choice " + userName + "!");
     //If the user would like one seat in their car
