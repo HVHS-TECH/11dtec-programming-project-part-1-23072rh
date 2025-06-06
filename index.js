@@ -38,6 +38,9 @@ function start() {
     //If the user would like one seat in their car
 if (userSeats == 1) {
     userAnswer = prompt("You want one seat in your car, you might be intristed in the BAC mono.\nDo you like the sound of that?");
+    while (userAnswer == "no") {
+        
+    }
 }
     //If the user would like two seats in their car
 
