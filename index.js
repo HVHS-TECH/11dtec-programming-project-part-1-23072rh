@@ -40,9 +40,9 @@ function start() {
     userName = prompt("Hello my name is Rob.\nWhats yours?");
     alert("Nice to meet you " + userName + " and welcome to Rob's car rentals");
     //Asking the user if they would like to rent a car
-    userChoice = prompt("Would you be intristsed in renting on of our cars " + userName + "?");
+    userChoice = prompt("Would you be interested in renting one of our cars " + userName + "?");
     if (userChoice == "yes" || userChoice == "Yes") {
-        alert("Well your in the right place " + userName + ".");
+        alert("Well you're in the right place " + userName + ".");
     } else {
         alert("Maybe you should just walk instead.\nThank you for choosing Rob's rentals cars " + userName + "\nWe hope to see you again soon!");
         return;
@@ -52,7 +52,7 @@ function start() {
     while (choice < 0 || choice > 8) {
         prompt("Sorry we don't have any cars with " + choice + " seats right now.\nPlease pick a number of seats between 1 and 8.");
     }
-    alert("Your would like " + choice + " seats in your rental car.\nWe have a " + carArray[choice] + " in stock for you.");
+    alert("You would like " + choice + " seats in your rental car.\nWe have a " + carArray[choice] + " in stock for you.");
     //Ask the user how many days they would like to rent the car for
     userDays = prompt("How many days would you like to rent our " + carArray[choice] + " for " + userName + "?");
     alert(userDays + " days sounds like a great amount of time to enjoy your travels " + userName + "!");
