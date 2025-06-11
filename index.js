@@ -6,22 +6,22 @@
  **********************************************************************/
 console.log("Running index.js");
 /*********************************************************************** 
- Varibles
+ Varibles (Going top to bottom in order introduced)
 ***********************************************************************/
-//userName variable
+//Users name
 let userName;
-//userChoice variable
+//If the user would like to rent a car
 let userChoice;
-//userSeats variable
+//Users choice of how many seats
 let userSeats;
-/**************
-Cars availble for rent 
-**************/
-//                0         1            2              3              4               5                  6                    7                   8      
+//Choice of car Array
 let carArray = ["Walk", "BAC Mono", "Mazda MX5", "Toyota Yaris", "Mini Cooper", "KIA Sportage", "Mitsubishi Triton", "Mitsubishi Outlander", "KIA Carnival"];
+//Users choice of car
 let choice;
-//userDays variable
+//Users choice of how many days they want to rent a car
 let userDays;
+//The cost of how many days in a certain car
+var userDaysCost = userSeats
 /*********************
  userDaysCost variable
  ********************/
