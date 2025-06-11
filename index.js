@@ -61,7 +61,7 @@ function start() {
     alert("Renting our " + carArray[choice] + " will cost you " + answer + " dollars.");
     //Giving the user a summary 
     alert("You are renting a " + carArray[choice] + " for " + userDays + " days.\nThe total cost of your rental car will be " + answer + " dollars.");
-    alert("Thank you for choosing Rob's rental cars " + userName + "!\nWe look foward to seeing you agin soon!");
+    alert("Thank you for choosing Rob's rental cars " + userName + "!\nWe look foward to seeing you again soon!");
 }
     /*
     userDaysCost = userSeats * userDays * 10;
