@@ -21,12 +21,8 @@ let choice;
 //Users choice of how many days they want to rent a car
 let userDays;
 //The cost of how many days in a certain car
-let userDaysCost;
-//userSeats * userDays * 10;
-/*********************
- userDaysCost variable
- ********************/
-
+let answer;
+var ten = 10;
 /***********************************************************************
  Main code
 ***********************************************************************/
@@ -39,7 +35,7 @@ let userDaysCost;
 /***********************************************************************
  Functions
 ***********************************************************************/
-function rentNow() {
+function start() {
     //Asking the user for their name
     userName = prompt("Hello my name is Rob.\nWhats yours?");
     alert("Nice to meet you " + userName + " and welcome to Rob's car rentals");
@@ -61,40 +57,13 @@ function rentNow() {
     userDays = prompt("How many days would you like to rent our " + carArray[choice] + " for " + userName + "?");
     alert(userDays + " days sounds like a great amount of time to enjoy your travels " + userName + "!");
     //Telling the user how much it will cost to rent the car, based on how many days they would like it
+    answer = Number(userSeats) * Number(userDays) * ten;
+    alert("Renting our " + carArray[choice] + " will cost you " + answer + " dollars.");
+    //Giving the user a summary 
+    alert("You are renting a " + carArray[choice] + " for " + userDays + " days.\nThe total cost of your rental car will be " + answer + " dollars.");
+    alert("Thank you for choosing Rob's rental cars " + userName + "!\nWe look foward to seeing you agin soon!");
+}
+    /*
     userDaysCost = userSeats * userDays * 10;
     alert("Renting our " + carArray[choice] + " will cost you " + userDaysCost + " dollars.");
-}
-/**
-     //If the user would like one seat in their car
-        if (userSeats == 1) {
-            alert("You want one seat in your car, we have a BAC mono in stock just for you.");
-        }
-        //If the user would like two seats in their car
-        if (userSeats == 2) {
-            alert("You want two seats in your car, we have a Maxda MX5 in stock just for you.");
-        }
-        //If the user would like three seats in their car
-        if (userSeats == 3) {
-            alert("You want three seats in your car, we have a Toyota Yaris in stock just for you.");
-        }
-        //If the user would like four seats in their car
-        if (userSeats == 4) {
-            alert("You want four seats in your car, we have a Mini Cooper in stock just for you.");
-        }
-        //If the user would like five seats in their car
-        if (userSeats == 5) {
-            alert("You want five seats in your car, we have a KIA Sportage in stock just for you.");
-        }
-        //If the user would like six seats in their car
-        if (userSeats == 6) {
-            alert("You want six seats in your car, we have a Mitsubishi Triton in stock just for you.");
-        }
-        //If the user would like seven seats in their car
-        if (userSeats == 7) {
-            alert("You want seven seats in your car, we have a Mitsubishi Outlander in stock just for you.");
-        }
-        //If the user would like eight seats in their car
-        if (userSeats == 8) {
-            alert("You want eight or more seats in your car, we have a KIA Carnival in stock just for you.");
-        }
-     */
+    */
