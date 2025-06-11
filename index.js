@@ -21,7 +21,7 @@ let choice;
 //Users choice of how many days they want to rent a car
 let userDays;
 //The cost of how many days in a certain car
-var userDaysCost = userSeats
+var userDaysCost = userSeats * userDays * 10;
 /*********************
  userDaysCost variable
  ********************/
@@ -60,7 +60,7 @@ function start() {
     userDays = prompt("How many days would you like to rent our " + carArray[choice] + " for " + userName + "?");
     prompt(userDays + " days sounds like a great amount of time to enjoy your travels " + userName + "!");
     //Telling the user how much it will cost to rent the car, based on how many days they would like it
-
+    alert("Renting our " + carArray[choice] + " will cost you " + userDaysCost + " dollars.");
 }
 /**
      //If the user would like one seat in their car
