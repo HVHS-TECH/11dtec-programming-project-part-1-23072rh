@@ -58,7 +58,7 @@ function start() {
     alert("Your would like " + choice + " seats in your rental car.\nWe have a " + carArray[choice] + " in stock for you.");
     //Ask the user how many days they would like to rent the car for
     userDays = prompt("How many days would you like to rent our " + carArray[choice] + " for " + userName + "?");
-    prompt(userDays + " days sounds like a great amount of time to enjoy your travels " + userName + "!");
+    alert(userDays + " days sounds like a great amount of time to enjoy your travels " + userName + "!");
     //Telling the user how much it will cost to rent the car, based on how many days they would like it
     alert("Renting our " + carArray[choice] + " will cost you " + userDaysCost + " dollars.");
 }
