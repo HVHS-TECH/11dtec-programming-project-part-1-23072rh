@@ -21,7 +21,7 @@ let choice;
 //Users choice of how many days they want to rent a car
 let userDays;
 //The cost of how many days in a certain car
-let answer;
+let answer = 0;
 var ten = 10;
 /***********************************************************************
  Main code
@@ -48,10 +48,12 @@ function start() {
         return;
     }
     //Asking the user how many seats they want in their car
-    choice = prompt("So " + userName + "...\nHow many seats would you like inside your car?");
+    choice = prompt("So " + userName + "...\nHow many seats would you like inside your car?\nWe have between 1-8 seated cars in stock.");
     while (choice < 0 || choice > 8) {
-        prompt("Sorry we don't have any cars with " + choice + " seats right now.\nPlease pick a number of seats between 1 and 8.");
+        choice = prompt("Sorry we don't have any cars with " + choice + " seats right now.\nPlease pick a number of seats between 1 and 8.");
     }
+    //userSeats now has choices value for the rest of the code
+    userSeats = choice;
     alert("You would like " + choice + " seats in your rental car.\nWe have a " + carArray[choice] + " in stock for you.");
     //Ask the user how many days they would like to rent the car for
     userDays = prompt("How many days would you like to rent our " + carArray[choice] + " for " + userName + "?");
@@ -63,7 +65,3 @@ function start() {
     alert("You are renting a " + carArray[choice] + " for " + userDays + " days.\nThe total cost of your rental car will be " + answer + " dollars.");
     alert("Thank you for choosing Rob's rental cars " + userName + "!\nWe look foward to seeing you again soon!");
 }
-    /*
-    userDaysCost = userSeats * userDays * 10;
-    alert("Renting our " + carArray[choice] + " will cost you " + userDaysCost + " dollars.");
-    */
