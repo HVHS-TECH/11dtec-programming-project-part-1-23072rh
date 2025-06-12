@@ -48,7 +48,7 @@ function start() {
         return;
     }
     //Asking the user how many seats they want in their car
-    choice = prompt("So " + userName + "...\nHow many seats would you like inside your car?\nWe have between 1-8 seated cars in stock.");
+    choice = prompt("So " + userName + "...\nHow many seats would you like inside your car?");
     while (choice < 0 || choice > 8) {
         choice = prompt("Sorry we don't have any cars with " + choice + " seats right now.\nPlease pick a number of seats between 1 and 8.");
     }
