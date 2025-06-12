@@ -41,7 +41,7 @@ function start() {
     alert("Nice to meet you " + userName + " and welcome to Rob's car rentals");
     //Asking the user if they would like to rent a car
     userChoice = prompt("Would you be interested in renting one of our cars " + userName + "?");
-    if (userChoice == "yes" || userChoice == "Yes") {
+    if (userChoice == "yes" || userChoice == "Yes" || userChoice =="y") {
         alert("Well you're in the right place " + userName + ".");
     } else {
         alert("Maybe you should just walk instead.\nThank you for choosing Rob's rentals cars " + userName + "\nWe hope to see you again soon!");
